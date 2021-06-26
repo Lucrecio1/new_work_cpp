@@ -54,8 +54,13 @@ if(multi_cando<multi_cador){
   for(int i=1;i<=multi_cando;i++){
     produto=produto+multi_cador;
   }
-}else{
-    printf("Erro");
+}else if(multi_cando>multi_cador){
+    int troca=multi_cando;
+      multi_cando=multi_cador;
+      
+      for(int i=1;i<=multi_cando;i++){
+    produto=produto+troca;
+  }
   }
   printf("Produto:%d ",produto);
 }
