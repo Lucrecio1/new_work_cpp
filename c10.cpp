@@ -42,7 +42,7 @@ void Nome_Idade_Sexo(){ //4º exercicio
    }
 
 }
-void prod_s(){
+void prod_s(){ //5º exercicio
 int multi_cando,multi_cador,produto=0;
 
   printf("Digite um numero:");
