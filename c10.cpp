@@ -23,6 +23,6 @@ main(){
    imprimir_1a100();
    printf("\n\n");
    imprimir_par();
-   printf("\n\n");
+   
    imprimir_multiplo();
 }
