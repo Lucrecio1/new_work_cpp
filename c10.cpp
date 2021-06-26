@@ -42,11 +42,29 @@ void Nome_Idade_Sexo(){ //4º exercicio
    }
 
 }
+void prod_s(){
+int multi_cando,multi_cador,produto=0;
+
+  printf("Digite um numero:");
+  scanf("%d",&multi_cando);
+
+    printf("Digite um numero:");
+  scanf("%d",&multi_cador);
+if(multi_cando<multi_cador){
+  for(int i=1;i<=multi_cando;i++){
+    produto=produto+multi_cador;
+  }
+}else{
+    printf("Erro");
+  }
+  printf("Produto:%d ",produto);
+}
 main(){
    //imprimir_1a100();
    //printf("\n\n");
    //imprimir_par();
   // printf("\n\n");
    //imprimir_multiplo();
-   Nome_Idade_Sexo();
+  // Nome_Idade_Sexo();
+  prod_s();
 }
